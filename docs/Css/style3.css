@@ -1,0 +1,65 @@
+/* Estilos para las secciones */
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+    background-color:#3B3B6D;
+  border-radius: 5px;
+}
+
+/* Estilos para las imágenes */
+
+
+.imagen-marco img {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+.imagen-marco {
+  display: flex;
+}
+
+.imagen-marco img {
+  width: 200px; /* Ajusta el ancho de las imágenes según sea necesario */
+  height: auto; /* Para mantener la proporción */
+  margin-right: 500px; /* Añade un espacio entre las imágenes, si es necesario */
+}
+
+
+ body{
+  background-color: #3B3B6D;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 0;
+ }
+ header{
+  background-color: #3B3B6D;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+ }
+ h2{
+  color: white;
+ }
+ p{
+  color: white;
+ }
+ button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color:white ;
+  background-color: #3B3B6D;
+  cursor: pointer;
+  border-radius: 35px;
+}
+button:hover{
+  background: white;
+  color: black;
+}
+.container {
+  display: flex;
+  justify-content: center; /* Alinea horizontalmente al centro */
+  align-items: center; /* Alinea verticalmente al centro */
+  height: 300px; /* Altura del contenedor, ajusta según sea necesario */
+}

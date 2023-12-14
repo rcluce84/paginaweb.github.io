@@ -1,0 +1,84 @@
+/* Estilos generales */
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color:#3B3B6D;
+  }
+  
+  header {
+    background-color:#3B3B6D;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #3B3B6D;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color:#3B3B6D;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Estilos para enlaces */
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: rgb(0, 162, 255);
+  }
+  
+  /* Estilos específicos para los datos de contacto */
+  
+  header p {
+    margin: 5px 0;
+  }
+  
+  header a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Estilos para títulos */
+  
+  h1, h2 {
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para párrafos */
+  
+  p {
+    line-height: 1.6;
+  }
+
+  button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color:white ;
+    background-color: #3B3B6D;
+    cursor: pointer;
+    border-radius: 35px;
+  }
+  button:hover{
+    background: white;
+    color: black;
+}
