@@ -25,9 +25,18 @@ nav a {
     color: white;
     padding: 0 1.5rem;
 }
-nav a:hover{
+
+.link:hover{
+    background-color: white;
     color: rgb(0, 162, 255);
 }
+.enlace{
+    margin-top: auto;
+}
+.nav-items{
+    display: flex;
+}
+
 .hero{
     background-color: #3B3B6D;
 }

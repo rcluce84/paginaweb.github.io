@@ -5,13 +5,16 @@ body {
     margin: 0;
     padding: 0;
     background-color:#3B3B6D;
+    background-image: url("../Imagenes/Usa.png");
+    background-size: cover; /* Adjust the image size to cover the entire background */
+    background-position: center; /* Center the background image */
   }
   
   header {
-    background-color:#3B3B6D;
+    
     color: #fff;
     text-align: center;
-    padding: 20px 0;
+    
   }
   
   main {
@@ -25,10 +28,8 @@ body {
   }
   
   footer {
-    background-color:#3B3B6D;
     color: #fff;
     text-align: center;
-    padding: 10px 0;
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -49,7 +50,7 @@ body {
   /* Estilos específicos para los datos de contacto */
   
   header p {
-    margin: 5px 0;
+    margin: 7px 0;
   }
   
   header a {
@@ -60,7 +61,7 @@ body {
   /* Estilos para títulos */
   
   h1, h2 {
-    margin-bottom: 10px;
+    
   }
   
   /* Estilos para párrafos */

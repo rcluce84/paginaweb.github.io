@@ -1,62 +1,62 @@
 /* Updated styles.css */
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    min-height: 100vh;
-    /* Set the background image */
-    background-color: #3B3B6D;
-    background-image: url('cartoon-sticker-the-statue-of-liberty-in-new-york-city-free-png.png');
-    background-size: cover; /* Adjust the image size to cover the entire background */
-    background-position: center; /* Center the background image */
-    color: white; /* Darker text color */
-    padding-top: 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  /* Set the background image */
+  background-color: #3B3B6D;
+  background-image: url('../Imagenes/cartoon-sticker-the-statue-of-liberty-in-new-york-city-free-png.png');
+  background-size: cover; /* Adjust the image size to cover the entire background */
+  background-position: center; /* Center the background image */
+  color: white; /* Darker text color */
+  padding-top: 50px;
 
-  }
-  #main-content {
-    /* Your existing main content styles */
-    padding: 20px; /* Add padding to create space around content */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Highlighting text shadow */
-  }
-  
-  #main-content {
-    text-align: center;
-    margin-top: 30px;
-  }
-  
-  #main-content h1 {
-    margin-bottom: 20px;
-    font-size: 2.5rem; /* Larger heading */
-  }
-  
-  #main-content p {
-    text-align: justify;
-    margin-bottom: 20px;
-    font-size: 1.2rem; /* Larger paragraph text */
-  }
-  
-  #main-content .benefits-list {
-    list-style-type: disc;
-    margin-left: 20px;
-    padding-left: 20px;
-  }
-  
-  button {
-    padding: 1rem 3rem;
-    font-size: 1rem;
-    border: none;
-    color:white ;
-    background-color: #3B3B6D;
-    cursor: pointer;
-    border-radius: 35px;
-  }
-  button:hover{
-    background: white;
-    color: black;
+}
+#main-content {
+  /* Your existing main content styles */
+  padding: 20px; /* Add padding to create space around content */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Highlighting text shadow */
+}
+
+#main-content {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#main-content h1 {
+  margin-bottom: 20px;
+  font-size: 2.5rem; /* Larger heading */
+}
+
+#main-content p {
+  text-align: justify;
+  margin-bottom: 20px;
+  font-size: 1.2rem; /* Larger paragraph text */
+}
+
+#main-content .benefits-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 20px;
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  color:white ;
+  background-color: #3B3B6D;
+  cursor: pointer;
+  border-radius: 35px;
+}
+button:hover{
+  background: white;
+  color: black;
 }
