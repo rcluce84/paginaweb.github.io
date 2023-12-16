@@ -1,0 +1,90 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    background-color: #3B3B6D;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    color: white;
+}
+
+.partner-links {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Responsive Design, He hecho esta parte gracias a que mi padre me ha ayudado con ella y con ayuda de internet.*/
+@media screen and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color:white ;
+    background-color: #3B3B6D;
+    cursor: pointer;
+    border-radius: 35px;
+    display: flex;
+    margin: auto;
+  }
+  button:hover{
+    background: white;
+    color: black;
+}
+a:hover {
+    color: rgb(0, 162, 255);
+}
+footer {
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,13 +1,14 @@
 /* Estilos generales */
 
 body {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    margin: 0;
     padding: 0;
     background-color:#3B3B6D;
     background-image: url("../Imagenes/Usa.png");
     background-size: cover; /* Adjust the image size to cover the entire background */
     background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding to create space around content */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Highlighting text shadow */
   }
   
   header {
@@ -60,14 +61,11 @@ body {
   
   /* Estilos para títulos */
   
-  h1, h2 {
-    
-  }
-  
   /* Estilos para párrafos */
   
   p {
     line-height: 1.6;
+    font-size: larger;
   }
 
   button {

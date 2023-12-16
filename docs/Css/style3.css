@@ -20,15 +20,15 @@ section {
 }
 
 .imagen-marco img {
-  width: 200px; /* Ajusta el ancho de las imágenes según sea necesario */
+  width: 400px; /* Ajusta el ancho de las imágenes según sea necesario */
   height: auto; /* Para mantener la proporción */
-  margin-right: 500px; /* Añade un espacio entre las imágenes, si es necesario */
+  margin-right: 100px; /* Añade un espacio entre las imágenes, si es necesario */
 }
 
 
  body{
   background-color: #3B3B6D;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0;
   padding: 0;
  }
