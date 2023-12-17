@@ -1,2 +1,2 @@
 # paginaweb.github.io
-EL unico problema que he tenido es que al compartir el link a mis compañeros la pagina que salia no era la mia y directamente me salia el error 404.
+The only problem I had was that when I shared the link to my colleagues, the page that came up was not mine and I directly got the 404 error. I solved this by changing the name of the files and doing some push and sync, I managed to solve the problem. I really enjoyed working on the page and I decided to do it on a topic that can benefit me in the future, as it is something I would like to use as a side hustle. My conclusion is that this has opened my eyes and I have discovered something that I enjoy spending my time on.
